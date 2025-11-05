@@ -1,0 +1,8 @@
+10:06:21 **** Incremental Build of configuration release for project flora ****
+make MODE=release all 
+make[1]: Entering directory '/home/opp_env/default_workspace/omnetpp-6.0.2/tf/flora/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/opp_env/default_workspace/omnetpp-6.0.2/tf/flora/src'
+
+10:06:21 Build Finished. 0 errors, 0 warnings. (took 168ms)
+

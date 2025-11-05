@@ -1,0 +1,359 @@
+!SESSION 2025-10-28 21:16:01.859 -----------------------------------------------
+eclipse.buildId=6.0.2.231006-7d5ca33dba
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.omnetpp.main 1 0 2025-10-28 21:16:06.046
+!MESSAGE OMNeT++ IDE 6.0.2.231006-7d5ca33dba started.
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-10-28 21:16:07.613
+!MESSAGE Restoring info for: /nix/store/95cxzy2hpizr23343b8bskl4yacf4b3l-python3-3.10.11/bin/python3
+!STACK 0
+java.lang.RuntimeException: Restoring info for: /nix/store/95cxzy2hpizr23343b8bskl4yacf4b3l-python3-3.10.11/bin/python3
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:458)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:284)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:581)
+	at org.omnetpp.scave.ScavePlugin.ensurePyDevInterpreterConfigured(ScavePlugin.java:139)
+	at org.omnetpp.scave.ScavePlugin.start(ScavePlugin.java:62)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.omnetpp.ide.OmnetppStartup.earlyStartup(OmnetppStartup.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2737)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Expecting: /home/opp_env/default_workspace/omnetpp-6.0.2/samples/.metadata/.plugins/org.python.pydev/v1_2n35io7ojac8vlwb0b0s9rwpm/modulesKeys to exist (and be a file).
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:342)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:422)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:456)
+	... 29 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2025-10-28 21:16:07.827
+!MESSAGE Finished restoring information for: /nix/store/95cxzy2hpizr23343b8bskl4yacf4b3l-python3-3.10.11/bin/python3 at: /home/opp_env/default_workspace/omnetpp-6.0.2/samples/.metadata/.plugins/org.python.pydev/v1_2n35io7ojac8vlwb0b0s9rwpm
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: /nix/store/95cxzy2hpizr23343b8bskl4yacf4b3l-python3-3.10.11/bin/python3 at: /home/opp_env/default_workspace/omnetpp-6.0.2/samples/.metadata/.plugins/org.python.pydev/v1_2n35io7ojac8vlwb0b0s9rwpm
+	at org.python.pydev.core.log.Log.logInfo(Log.java:45)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:503)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:284)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:581)
+	at org.omnetpp.scave.ScavePlugin.ensurePyDevInterpreterConfigured(ScavePlugin.java:139)
+	at org.omnetpp.scave.ScavePlugin.start(ScavePlugin.java:62)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.omnetpp.ide.OmnetppStartup.earlyStartup(OmnetppStartup.java:88)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2737)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.help.base 2 0 2025-10-28 21:16:15.844
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.cdt.doc.user_11.3.0.202307110141 [93]'. The index should be rebuilt with Lucene 9.7.0
+
+!ENTRY org.eclipse.help.base 2 0 2025-10-28 21:16:15.845
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.dtdeditor.doc.user_1.1.0.v201903222120 [412]'. The index should be rebuilt with Lucene 9.7.0
+
+!ENTRY org.eclipse.help.base 2 0 2025-10-28 21:16:15.846
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xmleditor.doc.user_1.1.0.v201903222120 [425]'. The index should be rebuilt with Lucene 9.7.0
+
+!ENTRY org.eclipse.help.base 2 0 2025-10-28 21:16:15.847
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201903222120 [428]'. The index should be rebuilt with Lucene 9.7.0
+
+!ENTRY org.eclipse.help.base 2 0 2025-10-28 21:16:15.847
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.sse.doc.user_1.2.0.v201903222120 [415]'. The index should be rebuilt with Lucene 9.7.0
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-28 21:16:55.550
+!MESSAGE Unexpected overload for binary operator 5: 'operator -'
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-28 21:18:47.829
+!MESSAGE Indexed 'inet4.4' (1,509 sources, 2,262 headers) in 132 sec: 369,424 declarations; 1,385,953 references; 990 unresolved inclusions; 99 syntax errors; 34,813 unresolved names (1.9%)
+
+!ENTRY org.omnetpp.main 4 0 2025-10-28 21:30:33.679
+!MESSAGE Cannot download archive from https://github.com/florasim/flora/releases/download/v1.1.0/flora-1.1.0.tgz
+!STACK 0
+java.net.ConnectException: Connection timed out
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.omnetpp.ide.installer.AbstractProjectInstaller.copyURLToFile(AbstractProjectInstaller.java:297)
+	at org.omnetpp.ide.installer.AbstractProjectInstaller.downloadProjectDistribution(AbstractProjectInstaller.java:63)
+	at org.omnetpp.ide.installer.DefaultProjectInstaller.run(DefaultProjectInstaller.java:28)
+	at org.omnetpp.ide.installer.InstallProjectTask.run(InstallProjectTask.java:49)
+	at org.omnetpp.ide.installer.InstallProjectJob.run(InstallProjectJob.java:32)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection timed out
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at java.base/java.net.URLConnection.getHeaderFieldLong(Unknown Source)
+	at java.base/java.net.URLConnection.getContentLengthLong(Unknown Source)
+	at java.base/java.net.URLConnection.getContentLength(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getContentLength(Unknown Source)
+	at org.omnetpp.ide.installer.AbstractProjectInstaller.copyURLToFile(AbstractProjectInstaller.java:294)
+	... 5 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-28 21:30:58.926
+!MESSAGE Indexed 'flora' (21 sources, 752 headers) in 6.56 sec: 74,315 declarations; 139,887 references; 23 unresolved inclusions; 0 syntax errors; 534 unresolved names (0.25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-28 21:33:16.389
+!MESSAGE Indexed 'flora' (21 sources, 714 headers) in 6 sec: 70,419 declarations; 133,878 references; 56 unresolved inclusions; 0 syntax errors; 824 unresolved names (0.4%)
+
+!ENTRY org.omnetpp.cdt 4 0 2025-10-28 21:33:18.507
+!MESSAGE org.eclipse.core.runtime.CoreException: /inet4.4/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+!STACK 1
+org.eclipse.core.runtime.CoreException: /inet4.4/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+	at org.omnetpp.cdt.Activator.wrapIntoCoreException(Activator.java:122)
+	at org.omnetpp.cdt.Activator.wrapIntoCoreException(Activator.java:118)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:393)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:371)
+	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:83)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.omnetpp.cdt.build.MakemakeException: /inet4.4/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+	at org.omnetpp.cdt.build.Makemake.generateMakefile(Makemake.java:109)
+	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:54)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:388)
+	... 17 more
+!SUBENTRY 1 org.omnetpp.cdt 4 0 2025-10-28 21:33:18.508
+!MESSAGE /inet4.4/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+!STACK 0
+org.omnetpp.cdt.build.MakemakeException: /inet4.4/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+	at org.omnetpp.cdt.build.Makemake.generateMakefile(Makemake.java:109)
+	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:54)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:388)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:371)
+	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:83)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.omnetpp.cdt 4 0 2025-10-28 21:34:31.006
+!MESSAGE org.eclipse.core.runtime.CoreException: /flora/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+!STACK 1
+org.eclipse.core.runtime.CoreException: /flora/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+	at org.omnetpp.cdt.Activator.wrapIntoCoreException(Activator.java:122)
+	at org.omnetpp.cdt.Activator.wrapIntoCoreException(Activator.java:118)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:393)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:371)
+	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:83)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.omnetpp.cdt.build.MakemakeException: /flora/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+	at org.omnetpp.cdt.build.Makemake.generateMakefile(Makemake.java:109)
+	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:54)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:388)
+	... 17 more
+!SUBENTRY 1 org.omnetpp.cdt 4 0 2025-10-28 21:34:31.006
+!MESSAGE /flora/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+!STACK 0
+org.omnetpp.cdt.build.MakemakeException: /flora/Makefile seems to be a hand-written makefile, refusing to overwrite it. Please delete it or move it away.
+	at org.omnetpp.cdt.build.Makemake.generateMakefile(Makemake.java:109)
+	at org.omnetpp.cdt.build.MetaMakemake.generateMakefile(MetaMakemake.java:54)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefileFor(MakefileBuilder.java:388)
+	at org.omnetpp.cdt.build.MakefileBuilder.generateMakefiles(MakefileBuilder.java:371)
+	at org.omnetpp.cdt.build.MakefileBuilder.build(MakefileBuilder.java:83)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:594)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-10-28 21:37:18.783
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.omnetpp.ide.installer.InstallProjectJob
+!SESSION 2025-10-28 21:38:08.066 -----------------------------------------------
+eclipse.buildId=6.0.2.231006-7d5ca33dba
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.omnetpp.main 1 0 2025-10-28 21:38:13.982
+!MESSAGE OMNeT++ IDE 6.0.2.231006-7d5ca33dba started.
+
+!ENTRY org.python.pydev.shared_core 4 4 2025-10-28 21:38:44.827
+!MESSAGE Info: Rebuilding internal caches: /home/opp_env/default_workspace/omnetpp-6.0.2/samples/.metadata/.plugins/com.python.pydev.analysis/python_v1_2n35io7ojac8vlwb0b0s9rwpm/python.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.omnetpp.main 4 0 2025-10-28 21:40:47.264
+!MESSAGE Cannot download archive from https://github.com/inet-framework/inet/releases/download/v4.4.2/inet-4.4.2-src.tgz
+!STACK 0
+java.net.ConnectException: Connection timed out
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at org.omnetpp.ide.installer.AbstractProjectInstaller.copyURLToFile(AbstractProjectInstaller.java:297)
+	at org.omnetpp.ide.installer.AbstractProjectInstaller.downloadProjectDistribution(AbstractProjectInstaller.java:63)
+	at org.omnetpp.ide.installer.DefaultProjectInstaller.run(DefaultProjectInstaller.java:28)
+	at org.omnetpp.ide.installer.InstallProjectTask.run(InstallProjectTask.java:49)
+	at org.omnetpp.ide.installer.InstallProjectJob.run(InstallProjectJob.java:32)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection timed out
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.Net.connect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.followRedirect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at java.base/java.net.URLConnection.getHeaderFieldLong(Unknown Source)
+	at java.base/java.net.URLConnection.getContentLengthLong(Unknown Source)
+	at java.base/java.net.URLConnection.getContentLength(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getContentLength(Unknown Source)
+	at org.omnetpp.ide.installer.AbstractProjectInstaller.copyURLToFile(AbstractProjectInstaller.java:294)
+	... 5 more
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-28 21:41:17.709
+!MESSAGE Unexpected overload for binary operator 5: 'operator -'
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-10-28 21:41:59.510
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runtime.preferences.IPreferencesService.getRootNode()" because "preferencesService" is null
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:70)
+	at org.eclipse.cdt.core.CCorePreferenceConstants.getPreferenceNode(CCorePreferenceConstants.java:427)
+	at org.eclipse.cdt.core.CCorePreferenceConstants.getPreferenceNode(CCorePreferenceConstants.java:412)
+	at org.eclipse.cdt.core.CCorePreferenceConstants.getPreference(CCorePreferenceConstants.java:482)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.getIncludeExportPatterns(PDOMIndexerTask.java:221)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1033)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:909)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMRebuildTask.run(PDOMRebuildTask.java:94)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

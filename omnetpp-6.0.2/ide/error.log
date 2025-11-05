@@ -1,0 +1,5 @@
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SWT SessionManagerDBus: Failed to connect to org.gnome.SessionManager: Error spawning command line ?dbus-launch --autolaunch=98e4fcd15075465ba0bcf38d8c9f7900 --binary-syntax --close-stderr?: Child process exited with code 1
+SWT SessionManagerDBus: Failed to connect to org.xfce.SessionManager: Error spawning command line ?dbus-launch --autolaunch=98e4fcd15075465ba0bcf38d8c9f7900 --binary-syntax --close-stderr?: Child process exited with code 1

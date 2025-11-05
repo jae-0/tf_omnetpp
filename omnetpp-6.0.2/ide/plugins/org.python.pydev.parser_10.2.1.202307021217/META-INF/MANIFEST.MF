@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 11
+Bundle-ManifestVersion: 2
+Bundle-Name: Parser Plug-in
+Bundle-SymbolicName: org.python.pydev.parser; singleton:=true
+Bundle-Version: 10.2.1.202307021217
+Bundle-ClassPath: parser.jar
+Bundle-Activator: org.python.pydev.parser.ParserPlugin
+Eclipse-BundleShape: dir
+Require-Bundle: org.junit;bundle-version="4.0.0";resolution:=optional,or
+ g.eclipse.core.runtime,org.eclipse.core.resources,org.eclipse.text,org.
+ python.pydev.core;bundle-version="[10.2.1,10.2.2)"
+Bundle-ActivationPolicy: lazy
+Export-Package: org.python.pydev.parser,org.python.pydev.parser.fastpars
+ er,org.python.pydev.parser.fastparser.grammar_fstrings_common,org.pytho
+ n.pydev.parser.grammar30,org.python.pydev.parser.grammar36,org.python.p
+ ydev.parser.grammar_fstrings,org.python.pydev.parser.grammarcommon,org.
+ python.pydev.parser.jython,org.python.pydev.parser.jython.ast,org.pytho
+ n.pydev.parser.jython.ast.factory,org.python.pydev.parser.preferences,o
+ rg.python.pydev.parser.prettyprinter,org.python.pydev.parser.prettyprin
+ terv2,org.python.pydev.parser.visitors,org.python.pydev.parser.visitors
+ .comparator,org.python.pydev.parser.visitors.scope
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.python.pydev.parser
+
+Name: schema/pydev_parser_observer.exsd
+SHA-256-Digest: udN0FNzmbxEpmwmTJjpVGwFEXbjSpoqrUOQK36WrpDM=
+
+Name: plugin.xml
+SHA-256-Digest: aOqkeA/EdSN/O8ZxIqGUbXBztq04CzDCT7xwG7QK5Yg=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.parser/pom.xml
+SHA-256-Digest: MLyT/9yn/TIoxnvBPbGoiH6uYlv5XA9VI82TmBBx6uM=
+
+Name: parser.jar
+SHA-256-Digest: N1+Bnaas5TXH4t+/NF1xlKEKvSAS77lMCEuQ1Iu/60k=
+
+Name: LICENSE.txt
+SHA-256-Digest: J75t01G5GT6rkY9hiDNA+yh/SDVMI+VNinfwannMATI=
+
+Name: META-INF/maven/org.python.pydev/org.python.pydev.parser/pom.proper
+ ties
+SHA-256-Digest: xEPGDUYSInflsWTI0uQjxfVIfTdsBwr3JUIOWw2TFYo=
+

@@ -1,0 +1,34 @@
+Signature-Version: 1.0
+Created-By: 11.0.17 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: Pcoxupch9wvOwLdUSr2gTnYvDoG3Gf1HgmM8uoap1Uc=
+SHA-256-Digest-Manifest-Main-Attributes: tL8e2wbrA+oEUIpy3wHarVu/xVRJfja
+ al9ZRtZAFDkc=
+
+Name: plugin.xml
+SHA-256-Digest: z6ZROMqPPpLhB+J79j8L63hKMgbSQpueTHsWW3izoIg=
+
+Name: icons/term_debug_server.gif
+SHA-256-Digest: mZQs/aeFbIvMAPH3QHR9cevyVP9JqEu51mYwL7s/MW0=
+
+Name: icons/attach_to_process.png
+SHA-256-Digest: cAZZV4kFlSg6jA/9AlKor6J2b6CJz6zFPM8WzVedPos=
+
+Name: LICENSE.TXT
+SHA-256-Digest: mtk2pu43aWF40oMq/sr3cRMcILygEgrX4KgNzXYsnaA=
+
+Name: icons/start_debug_server.gif
+SHA-256-Digest: k9cglI4hhnI84/Glx/SCnJsnsroHXQj4N54bAKw1U7U=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.debug/pom.xml
+SHA-256-Digest: kSfLb0JLOYpzT/kvEiU/Tw5qwEywhDpCQJZQSbYDs/Q=
+
+Name: debug.jar
+SHA-256-Digest: dQdNO52CzPsuiS2gsn8DFp0aF6DNcHu8MJb/xDvVRQQ=
+
+Name: META-INF/maven/org.python.pydev/com.python.pydev.debug/pom.propert
+ ies
+SHA-256-Digest: fuDmNss8Fft4j/WAvlEGvMksC56eUWWOKoMeMN09+Ok=
+
+Name: icons/python.gif
+SHA-256-Digest: 7BNk8hM5x9P52edMsSEiF33h7FYR9U+SI6Zj+QKKObk=
+

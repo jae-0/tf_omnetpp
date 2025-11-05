@@ -1,0 +1,13 @@
+out/clang-debug//HttpServer.o: HttpServer.cc HttpServer.h QueueBase.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h \
+  HttpMsg_m.h NetPkt_m.h
+
+HttpServer.h:
+
+QueueBase.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:
+
+HttpMsg_m.h:
+
+NetPkt_m.h:

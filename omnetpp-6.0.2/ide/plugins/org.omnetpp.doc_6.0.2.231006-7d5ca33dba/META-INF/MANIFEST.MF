@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 17
+Bundle-ManifestVersion: 2
+Bundle-Name: OMNeT++ Help
+Bundle-SymbolicName: org.omnetpp.doc;singleton:=true
+Bundle-Version: 6.0.2.231006-7d5ca33dba
+Bundle-Vendor: OpenSim Ltd.
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Require-Bundle: org.eclipse.ui,org.eclipse.ui.intro,org.eclipse.ui.intro
+ .universal,org.eclipse.help,org.eclipse.jdt.core,org.omnetpp.common
+Automatic-Module-Name: org.omnetpp.doc
+

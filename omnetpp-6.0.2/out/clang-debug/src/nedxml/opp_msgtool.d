@@ -1,0 +1,93 @@
+/home/opp_env/default_workspace/omnetpp-6.0.2/out/clang-debug/src/nedxml/opp_msgtool: \
+  opp_msgtool.cc \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/fileglobber.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/commondefs.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp/platdep/platdefs.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/fileutil.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/stringutil.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/commonutil.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/exception.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/stlutil.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/formattedprinter.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/opp_ctype.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/ver.h \
+  errorstore.h nedxmldefs.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp/platdep/platmisc.h \
+  msgparser.h yydefs.h exception.h msgdtdvalidator.h msgelements.h \
+  astnode.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/pooledstring.h \
+  /home/opp_env/default_workspace/omnetpp-6.0.2/src/common/stringpool.h \
+  nedelements.h msgvalidator.h dtdvalidationutils.h msggenerator.h \
+  msgcompiler.h msgtypetable.h msganalyzer.h msgcompileroptions.h \
+  msgcodegenerator.h xmlgenerator.h nedtools.h xmlastparser.h \
+  opp_msgtool.h
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/fileglobber.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/commondefs.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp/platdep/platdefs.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/fileutil.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/stringutil.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/commonutil.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/exception.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/stlutil.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/formattedprinter.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/opp_ctype.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/ver.h:
+
+errorstore.h:
+
+nedxmldefs.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp/platdep/platmisc.h:
+
+msgparser.h:
+
+yydefs.h:
+
+exception.h:
+
+msgdtdvalidator.h:
+
+msgelements.h:
+
+astnode.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/pooledstring.h:
+
+/home/opp_env/default_workspace/omnetpp-6.0.2/src/common/stringpool.h:
+
+nedelements.h:
+
+msgvalidator.h:
+
+dtdvalidationutils.h:
+
+msggenerator.h:
+
+msgcompiler.h:
+
+msgtypetable.h:
+
+msganalyzer.h:
+
+msgcompileroptions.h:
+
+msgcodegenerator.h:
+
+xmlgenerator.h:
+
+nedtools.h:
+
+xmlastparser.h:
+
+opp_msgtool.h:

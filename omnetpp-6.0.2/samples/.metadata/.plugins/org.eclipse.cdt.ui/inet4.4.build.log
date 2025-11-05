@@ -1,0 +1,303 @@
+21:41:56 **** Incremental Build of configuration release for project inet4.4 ****
+make MODE=release -j32 all 
+make[1]: Entering directory '/home/opp_env/default_workspace/omnetpp-6.0.2/samples/inet4.4/src'
+*** CCACHE not detected - using precompiled headers
+*** COMPILING with:
+clang++ -c  -O3 -DNDEBUG=1 -ffp-contract=off -Wno-string-plus-int   -MMD -MP -MF .d  -fPIC  -Wno-deprecated-register -Wno-unused-function -fno-omit-frame-pointer -DHAVE_SWAPCONTEXT -DWITH_QTENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_LIBXML  -Wno-overloaded-virtual -include inet/common/precompiled_release.h -DOMNETPPLIBS_IMPORT -DINET_EXPORT -I. -I/home/opp_env/default_workspace/omnetpp-6.0.2/include
+*** LINKING with:
+clang++ -shared -fPIC -o ../out/clang-release/src/libINET.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvir -loppsim -lstdc++    -fuse-ld=lld -Wl,-rpath,/home/opp_env/default_workspace/omnetpp-6.0.2/lib -Wl,-rpath,/home/opp_env/default_workspace/omnetpp-6.0.2/tools/linux.x86_64/lib -Wl,-rpath,.  -Wl,--export-dynamic -L/home/opp_env/default_workspace/omnetpp-6.0.2/lib 
+Building...
+Creating precompiled header for clang...
+inet/applications/base/ApplicationBase.cc
+inet/applications/base/ApplicationPacketSerializer.cc
+inet/applications/clock/SimpleClockSynchronizer.cc
+inet/applications/dhcp/DhcpClient.cc
+inet/applications/dhcp/DhcpMessageSerializer.cc
+inet/applications/dhcp/DhcpServer.cc
+inet/applications/ethernet/EtherAppClient.cc
+inet/applications/ethernet/EtherAppPacketSerializer.cc
+inet/applications/ethernet/EtherAppServer.cc
+inet/applications/ethernet/EthernetSocketIo.cc
+inet/applications/ethernet/EtherTrafGen.cc
+inet/applications/generic/IpvxTrafGen.cc
+inet/applications/generic/IpvxTrafSink.cc
+inet/applications/ieee8022/Ieee8022LlcSocketIo.cc
+inet/applications/pingapp/PingApp.cc
+inet/applications/netperfmeter/NetPerfMeter.cc
+inet/applications/rtpapp/RtpApplication.cc
+inet/applications/sctpapp/SctpClient.cc
+inet/applications/sctpapp/SctpNatPeer.cc
+inet/applications/sctpapp/SctpNatServer.cc
+inet/applications/sctpapp/SctpPeer.cc
+inet/applications/sctpapp/SctpServer.cc
+inet/applications/tcpapp/GenericAppMsgSerializer.cc
+inet/applications/tcpapp/TcpAppBase.cc
+inet/applications/tcpapp/TcpBasicClientApp.cc
+inet/applications/tcpapp/TcpClientSocketIo.cc
+inet/applications/tcpapp/TcpEchoApp.cc
+inet/applications/tcpapp/TcpGenericServerApp.cc
+inet/applications/tcpapp/TcpGenericServerThread.cc
+inet/applications/tcpapp/TcpServerHostApp.cc
+inet/applications/tcpapp/TcpServerListener.cc
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from inet/common/precompiled_release.h:1:
+In file included from inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [makefrag:133: inet/common/precompiled_release.h.pch] Error 1
+make[1]: *** Waiting for unfinished jobs....
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/ethernet/EtherAppPacketSerializer.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/generic/IpvxTrafSink.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/rtpapp/RtpApplication.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/ethernet/EtherAppClient.o] Error 1
+1 error generated.
+1 error generated.
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/sctpapp/SctpPeer.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/dhcp/DhcpMessageSerializer.o] Error 1
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/TcpEchoApp.o] Error 1
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/clock/SimpleClockSynchronizer.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/ieee8022/Ieee8022LlcSocketIo.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/TcpGenericServerThread.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/generic/IpvxTrafGen.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/base/ApplicationBase.o] Error 1
+1 error generated.
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/sctpapp/SctpClient.o] Error 1
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/TcpAppBase.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/TcpServerHostApp.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/pingapp/PingApp.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/dhcp/DhcpServer.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/ethernet/EtherTrafGen.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/ethernet/EthernetSocketIo.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/dhcp/DhcpClient.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/TcpClientSocketIo.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/base/ApplicationPacketSerializer.o] Error 1
+1 error generated.
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/ethernet/EtherAppServer.o] Error 1
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/sctpapp/SctpServer.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/sctpapp/SctpNatServer.o] Error 1
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from <built-in>:1:
+In file included from ./inet/common/precompiled_release.h:1:
+In file included from ./inet/common/precompiled.h:20:
+/home/opp_env/default_workspace/omnetpp-6.0.2/include/omnetpp.h:139:10: fatal error: 'omnetpp/sim_std_m.h' file not found
+#include "omnetpp/sim_std_m.h"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/TcpGenericServerApp.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/netperfmeter/NetPerfMeter.o] Error 1
+1 error generated.
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/sctpapp/SctpNatPeer.o] Error 1
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/TcpBasicClientApp.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/GenericAppMsgSerializer.o] Error 1
+1 error generated.
+make[1]: *** [Makefile:1850: ../out/clang-release/src/inet/applications/tcpapp/TcpServerListener.o] Error 1
+make[1]: Leaving directory '/home/opp_env/default_workspace/omnetpp-6.0.2/samples/inet4.4/src'
+make: *** [Makefile:7: all] Error 2
+"make MODE=release -j32 all" terminated with exit code 2. Build might be incomplete.
+
+21:41:57 Build Failed. 66 errors, 0 warnings. (took 1s.496ms)
+

@@ -1,0 +1,89 @@
+21:34:36 **** Build of configuration release for project flora ****
+make MODE=release all 
+make[1]: Entering directory '/home/opp_env/default_workspace/omnetpp-6.0.2/samples/flora/src'
+MSGC: LoRa/LoRaMacControlInfo.msg
+MSGC: LoRa/LoRaMacFrame.msg
+MSGC: LoRa/LoRaTagInfo.msg
+MSGC: LoRaApp/LoRaAppPacket.msg
+MSGC: LoRaPhy/LoRaPhyPreamble.msg
+MSGC: LoRaPhy/LoRaRadioControlInfo.msg
+LoRa/LoRaGWMac.cc
+LoRa/LoRaGWRadio.cc
+In file included from LoRa/LoRaGWRadio.cc:16:
+In file included from LoRa/LoRaGWRadio.h:26:
+./LoRaPhy/LoRaMedium.h:47:20: warning: 'addTransmission' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                   ^
+../../inet4.4/src/inet/physicallayer/wireless/common/medium/RadioMedium.h:229:18: note: overridden virtual function is here
+    virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                 ^
+1 warning generated.
+LoRa/LoRaMac.cc
+LoRa/LoRaRadio.cc
+In file included from LoRa/LoRaRadio.cc:17:
+./LoRaPhy/LoRaMedium.h:47:20: warning: 'addTransmission' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                   ^
+../../inet4.4/src/inet/physicallayer/wireless/common/medium/RadioMedium.h:229:18: note: overridden virtual function is here
+    virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                 ^
+1 warning generated.
+LoRa/NetworkServerApp.cc
+LoRa/PacketForwarder.cc
+LoRaApp/SimpleLoRaApp.cc
+LoRaEnergyModules/LoRaEnergyConsumer.cc
+LoRaPhy/LoRaAnalogModel.cc
+LoRaPhy/LoRaBandListening.cc
+LoRaPhy/LoRaHataOkumura.cc
+LoRaPhy/LoRaLogNormalShadowing.cc
+LoRaPhy/LoRaMedium.cc
+In file included from LoRaPhy/LoRaMedium.cc:15:
+LoRaPhy/LoRaMedium.h:47:20: warning: 'addTransmission' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                   ^
+../../inet4.4/src/inet/physicallayer/wireless/common/medium/RadioMedium.h:229:18: note: overridden virtual function is here
+    virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                 ^
+1 warning generated.
+LoRaPhy/LoRaMediumCache.cc
+In file included from LoRaPhy/LoRaMediumCache.cc:19:
+In file included from ./LoRaPhy/LoRaMediumCache.h:23:
+./LoRaPhy/LoRaMedium.h:47:20: warning: 'addTransmission' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                   ^
+../../inet4.4/src/inet/physicallayer/wireless/common/medium/RadioMedium.h:229:18: note: overridden virtual function is here
+    virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                 ^
+1 warning generated.
+LoRaPhy/LoRaModulation.cc
+LoRaPhy/LoRaNeighborCache.cc
+In file included from LoRaPhy/LoRaNeighborCache.cc:18:
+In file included from ./LoRaPhy/LoRaNeighborCache.h:21:
+./LoRaPhy/LoRaMedium.h:47:20: warning: 'addTransmission' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+      virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                   ^
+../../inet4.4/src/inet/physicallayer/wireless/common/medium/RadioMedium.h:229:18: note: overridden virtual function is here
+    virtual void addTransmission(const IRadio *transmitter, const ITransmission *transmission);
+                 ^
+1 warning generated.
+LoRaPhy/LoRaPathLossOulu.cc
+LoRaPhy/LoRaReceiver.cc
+LoRaPhy/LoRaReception.cc
+LoRaPhy/LoRaTransmission.cc
+LoRaPhy/LoRaTransmitter.cc
+LoRa/LoRaMacControlInfo_m.cc
+LoRa/LoRaMacFrame_m.cc
+LoRa/LoRaTagInfo_m.cc
+LoRaApp/LoRaAppPacket_m.cc
+LoRaPhy/LoRaPhyPreamble_m.cc
+LoRaPhy/LoRaRadioControlInfo_m.cc
+Creating shared library: ../out/clang-release/src/libflora.so
+ld.lld: error: unable to find library -lINET
+clang-11: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [Makefile:153: ../out/clang-release/src/libflora.so] Error 1
+make: *** [Makefile:5: all] Error 2
+make[1]: Leaving directory '/home/opp_env/default_workspace/omnetpp-6.0.2/samples/flora/src'
+"make MODE=release all" terminated with exit code 2. Build might be incomplete.
+
+21:34:59 Build Failed. 2 errors, 5 warnings. (took 22s.849ms)
+
